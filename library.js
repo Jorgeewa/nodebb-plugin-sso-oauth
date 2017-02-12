@@ -30,8 +30,8 @@
 	var authenticationController = module.parent.require('./controllers/authentication');
 
 	var constants = Object.freeze({
-			type: '',	// Either 'oauth' or 'oauth2'
-			name: '',	// Something unique to your OAuth provider in lowercase, like "github", or "nodebb"
+			type: 'oath2',	// Either 'oauth' or 'oauth2'
+			name: 'nodeBB',	// Something unique to your OAuth provider in lowercase, like "github", or "nodebb"
 			oauth: {
 				requestTokenURL: '',
 				accessTokenURL: '',
@@ -40,10 +40,10 @@
 				consumerSecret: ''
 			},
 			oauth2: {
-				authorizationURL: '',
-				tokenURL: '',
-				clientID: '',
-				clientSecret: ''
+				authorizationURL: 'http://localhost:3000/api/oauth2/authorize',
+				tokenURL: 'http://localhost:3000/api/oauth2/token',
+				clientID: 'nodeBB_logIn',
+				clientSecret: 'change_this_later'
 			},
 			userRoute: ''	// This is the address to your app's "user profile" API endpoint (expects JSON)
 		}),
