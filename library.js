@@ -45,7 +45,7 @@
 				clientID: 'nodeBB_logIn',
 				clientSecret: 'change_this_later'
 			},
-			userRoute: ''	// This is the address to your app's "user profile" API endpoint (expects JSON)
+			userRoute: '/api/oauth2/users'	// This is the address to your app's "user profile" API endpoint (expects JSON)
 		}),
 		configOk = false,
 		OAuth = {}, passportOAuth, opts;
