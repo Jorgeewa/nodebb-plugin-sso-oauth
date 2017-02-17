@@ -40,8 +40,8 @@
 				consumerSecret: ''
 			},
 			oauth2: {
-				authorizationURL: 'http://localhost:3000/api/oauth2/authorize',
-				tokenURL: 'http://localhost:3000/api/oauth2/token',
+				authorizationURL: 'https://powerful-shelf-45643.herokuapp.com/api/oauth2/authorize',
+				tokenURL: 'https://powerful-shelf-45643.herokuapp.com/api/oauth2/token',
 				clientID: 'nodeBB_logIn',
 				clientSecret: 'change_this_later'
 			},
