@@ -45,7 +45,7 @@
 				clientID: 'nodeBB_logIn',
 				clientSecret: 'change_this_later'
 			},
-			userRoute: '/api/oauth2/users'	// This is the address to your app's "user profile" API endpoint (expects JSON)
+			userRoute: 'https://powerful-shelf-45643.herokuapp.com/api/oauth2/users'	// This is the address to your app's "user profile" API endpoint (expects JSON)
 		}),
 		configOk = false,
 		OAuth = {}, passportOAuth, opts;
