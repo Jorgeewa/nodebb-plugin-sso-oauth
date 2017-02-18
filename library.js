@@ -31,7 +31,7 @@
 
 	var constants = Object.freeze({
 			type: 'oauth2',	// Either 'oauth' or 'oauth2'
-			name: 'create-and-login-user',	// Something unique to your OAuth provider in lowercase, like "github", or "nodebb"
+			name: 'powerful-shelf-45643.herokuapp',	// Something unique to your OAuth provider in lowercase, like "github", or "nodebb"
 			oauth: {
 				requestTokenURL: '',
 				accessTokenURL: '',
